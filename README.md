@@ -11,7 +11,7 @@ with minimal config repetition, minimal custom code, and minimal clutter:
 * each getting variations of many (over 30) similar secrets from runtime env vars, 
 * (some variations requiring more formatting power than go templating), 
 * to a few (dev, preprod, prod) multi-tenant kubernetes/argo user environments, 
-* while remaining a cluster "user", not "administrator" (i.e. without defining a crd)
+* while remaining a cluster "user", not "administrator" (i.e. without defining a CRD)
 
 In this way, I could get away with managing only four actual "normalized" secrets (e.g. "common", "dev", "preprod", 
 and "prod", sync'ed from hashicorp vault using external-secrets), and ~30 sets of secret annotation specs, 

@@ -1,7 +1,0 @@
-apiVersion: socalswami17.io/v1
-kind: Fancycret
-metadata:
-  name: hello-world
-spec:
-  secretA: hello
-  secretB: world
